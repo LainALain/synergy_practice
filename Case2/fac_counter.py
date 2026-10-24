@@ -14,7 +14,7 @@ def calculate_factorial(n):
 
 
 while True:
-    user_num = input("Введите положительное число >>> ").strip()
+    user_num = input("Введите положительное целое число >>> ").strip()
     result = calculate_factorial(user_num)
 
     if isinstance(result, int):
